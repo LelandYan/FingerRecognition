@@ -1,0 +1,255 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\Finger.rc2""  // 闂?Microsoft Visual C++ 缂傛牞绶惃鍕カ濠?\n"
+    "#include ""l.CHS\\afxres.rc""      // 閺嶅洤鍣紒鍕\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxribbon.rc""   // MFC 閸旂喕鍏橀崠鍝勬嫲閹貉冨煑閺壜ょカ濠?\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Finger.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FINGER_DIALOG DIALOGEX 0, 0, 849, 278
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "指纹识别系统"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDC_BTN_EXIT,780,236,60,23
+    GROUPBOX        "登记人",IDC_STATIC,779,7,63,40
+    GROUPBOX        "指纹采集器",IDC_STATIC,775,67,63,120
+    PUSHBUTTON      "载入图像",IDC_BTN_STEP_1,16,29,68,14
+    PUSHBUTTON      "方向计算",IDC_BTN_STEP_4,17,194,68,14
+    PUSHBUTTON      "均值化",IDC_BTN_STEP_3,16,130,68,14
+    PUSHBUTTON      "频率计算",IDC_BTN_STEP_5,17,243,68,14
+    PUSHBUTTON      "掩码计算",IDC_BTN_STEP_6,96,30,68,14
+    PUSHBUTTON      "中值滤波",IDC_BTN_STEP_2,17,61,68,14
+    PUSHBUTTON      "Gabor增强",IDC_BTN_STEP_7,93,86,68,14
+    PUSHBUTTON      "特征过滤",IDC_BTN_STEP_11,94,227,68,14
+    PUSHBUTTON      "二值化",IDC_BTN_STEP_8,93,120,68,14
+    PUSHBUTTON      "细化",IDC_BTN_STEP_9,93,154,68,14
+    PUSHBUTTON      "特征提取",IDC_BTN_STEP_10,93,189,68,14
+    PUSHBUTTON      "启动",IDC_BTN_CONNECT,779,79,59,14
+    PUSHBUTTON      "识别",IDC_BTN_IDENTIFY,779,145,59,14
+    PUSHBUTTON      "登记",IDC_BTN_REGISTER,779,123,59,14
+    PUSHBUTTON      "采集",IDC_BTN_CAPTURE,779,100,59,14
+    PUSHBUTTON      "停止",IDC_BTN_DISCONNECT,779,167,59,14
+    PUSHBUTTON      "指纹库信息",IDC_BTN_DATABASE,784,202,50,14
+    LTEXT           "姓名:",IDC_STATIC,784,31,18,9
+    LTEXT           "",IDC_STATIC_INFO,186,11,389,18,SS_CENTERIMAGE | WS_BORDER,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_STATIC_IMG_2,"Static",SS_BLACKFRAME,388,37,187,234
+    CONTROL         "",IDC_STATIC_IMG_1,"Static",SS_BLACKFRAME,186,37,182,234
+    EDITTEXT        IDC_EDIT_Name,805,30,33,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_ZKFPENGX,"{CA69969C-2F27-41D3-954D-A48B941C3BA7}",WS_TABSTOP,813,15,12,11
+    CONTROL         "",IDC_STATIC_IMG_3,"Static",SS_BLACKFRAME,587,37,179,234
+    LTEXT           "采集指纹动态图片",IDC_STATIC_INFO2,588,11,156,18,SS_CENTERIMAGE | WS_BORDER,WS_EX_TRANSPARENT
+    GROUPBOX        "第二步：过滤器选择",IDC_STATIC,15,52,71,62
+    PUSHBUTTON      "高斯滤波",IDC_BTN_STEP_12A,17,79,68,14
+    PUSHBUTTON      "中值滤波+高斯锐化",IDC_BTN_STEP_12B,17,97,68,14
+    GROUPBOX        "分部测试",IDC_STATIC,7,7,162,264
+    GROUPBOX        "第三步：均值化",IDC_STATIC,16,121,69,61
+    PUSHBUTTON      "高斯滤波+均值化",IDC_BUTTON1,16,148,68,14
+    PUSHBUTTON      "均值化+锐化",IDC_BUTTON2,16,165,68,14
+    PUSHBUTTON      "Sobel算子方向计算",IDC_BUTTON3,17,211,68,14
+    GROUPBOX        "第四步：方向计算",IDC_STATIC,17,185,68,41
+    PUSHBUTTON      "闭运算掩码计算",IDC_BUTTON4,96,49,68,14
+    GROUPBOX        "第6步：掩码计算",IDC_STATIC,96,17,68,51
+    GROUPBOX        "第11步：特征过滤",IDC_STATIC,93,213,69,48
+    PUSHBUTTON      "基于边界特征过滤",IDC_BUTTON5,95,245,67,14
+    GROUPBOX        "第1步：载入图像",IDC_STATIC,16,17,68,31
+    GROUPBOX        "第5步：频率计算",IDC_STATIC,16,231,69,28
+    GROUPBOX        "第8步：二值化",IDC_STATIC,93,109,69,29
+    GROUPBOX        "第9步：细化",IDC_STATIC,93,143,67,29
+    GROUPBOX        "第10步：特征提取",IDC_STATIC,93,178,69,28
+    GROUPBOX        "第7步：Gabor增强",IDC_STATIC,92,74,71,30
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "Finger"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Finger.exe"
+            VALUE "LegalCopyright", "TODO:  (C) <公司名>。  保留所有权利。"
+            VALUE "OriginalFilename", "Finger.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FINGER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 842
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 271
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FINGER_DIALOG DLGINIT
+BEGIN
+    IDC_ZKFPENGX, 0x376, 157, 0
+0x0000, 0x0000, 0x5054, 0x3046, 0x5408, 0x4b5a, 0x5046, 0x6e45, 0x0067, 
+0x4c04, 0x6665, 0x0274, 0x0300, 0x6f54, 0x0270, 0x0500, 0x6957, 0x7464, 
+0x0268, 0x0618, 0x6548, 0x6769, 0x7468, 0x1802, 0x450b, 0x726e, 0x6c6f, 
+0x436c, 0x756f, 0x746e, 0x0302, 0x530b, 0x6e65, 0x6f73, 0x4972, 0x646e, 
+0x7865, 0x0002, 0x5409, 0x7268, 0x7365, 0x6f68, 0x646c, 0x0a02, 0x4f11, 
+0x656e, 0x6f54, 0x6e4f, 0x5465, 0x7268, 0x7365, 0x6f68, 0x646c, 0x0a02, 
+0x4610, 0x726f, 0x6563, 0x6553, 0x6f63, 0x646e, 0x614d, 0x6374, 0x0868, 
+0x410c, 0x7475, 0x496f, 0x6564, 0x746e, 0x6669, 0x0879, 0x490d, 0x4973, 
+0x616d, 0x6567, 0x6843, 0x6e61, 0x6567, 0x0008, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_FINGER_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\Finger.rc2"  // 闂?Microsoft Visual C++ 缂傛牞绶惃鍕カ濠?
+#include "l.CHS\afxres.rc"      // 閺嶅洤鍣紒鍕
+#if !defined(_AFXDLL)
+#include "l.CHS\afxribbon.rc"   // MFC 閸旂喕鍏橀崠鍝勬嫲閹貉冨煑閺壜ょカ濠?
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
