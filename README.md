@@ -1,7 +1,7 @@
 # 指纹识别系统
 #### 程序的整体效果如下
 
-![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/entile.png)
+![Image text](imgs/1.png)imgs/1.png
 
 #### 一 . 系统运行的前期准备（本程序使用是指纹采集器 中控ZK4500_驱动已经相关的配套的指纹采集器）
 
@@ -47,29 +47,29 @@
 
 经过以上处理可以得到提取的指纹的相关的特征信息对应的结果图分别处理结果图如下：
 
-1. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/1.png)
+1. ![Image text](imgs/1.png)
 
-   ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/2.png)
+   ![Image text](imgs/2.png)
 
-2. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/3.png)
+2. ![Image text](imgs/3.png)
 
-3. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/4.png)
+3. ![Image text](imgs/4.png)
 
-4. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/5.png)
+4. ![Image text](imgs/5.png)
 
-5. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/6.png)
+5. ![Image text](imgs/6.png)
 
-6. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/7.png)
+6. ![Image text](imgs/7.png)
 
-7. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/8.png)
+7. ![Image text](imgs/8.png)
 
-8. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/9.png)
+8. ![Image text](imgs/9.png)
 
-9. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/10.png)
+9. ![Image text](imgs/10.png)
 
-10. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/11.png)
+10. ![Image text](imgs/11.png)
 
-11. ![Image text](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/12.png)
+11. ![Image text](imgs/12.png)
 
 #### 四.系统如何使用登记和识别功能
 
