@@ -1,9 +1,9 @@
 # 指纹识别系统
 #### 程序的整体效果如下
 
-![entile](.\imgs\entile.png)
+![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/entile.png)
 
-#### 一 . 系统运行的前期准备（本程序使用是指纹采集器_中控ZK4500_驱动已经相关的配套的指纹采集器）
+#### 一 . 系统运行的前期准备（本程序使用是指纹采集器 中控ZK4500_驱动已经相关的配套的指纹采集器）
 
 1. 首先应该安装指纹采集器_中控ZK4500_驱动
 2. 安装vs2019已经MFC对应在vs2019的C++框架
@@ -47,29 +47,29 @@
 
 经过以上处理可以得到提取的指纹的相关的特征信息对应的结果图分别处理结果图如下：
 
-1. ![entile](imgs\1.png)
+1. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/1.png)
 
-   ![entile](imgs\2.png)
+   ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/2.png)
 
-2. ![entile](imgs\3.png)
+2. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/3.png)
 
-3. ![entile](imgs\4.png)
+3. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/4.png)
 
-4. ![entile](imgs\5.png)
+4. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/5.png)
 
-5. ![entile](imgs\6.png)
+5. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/6.png)
 
-6. ![entile](imgs\7.png)
+6. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/7.png)
 
-7. ![entile](imgs\8.png)
+7. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/8.png)
 
-8. ![entile](imgs\9.png)
+8. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/9.png)
 
-9. ![entile](imgs\10.png)
+9. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/10.png)
 
-10. ![entile](imgs\11.png)
+10. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/11.png)
 
-11. ![entile](imgs\12.png)
+11. ![entile](https://github.com/LelandYan/FingerRecognition/tree/master/imgs/12.png)
 
 #### 四.系统如何使用登记和识别功能
 
